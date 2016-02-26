@@ -1,0 +1,17 @@
+<div ng-controller="searchController">
+    <form id="search" ng-submit="search()">
+        <input type="text" ng-model="searchMobileNumber" placeholder="Search mobile number ..." required>
+        <input type="submit" value="go" id="submit">
+    </form>
+    <div id="search-results" >
+        <div class="address" ng-repeat="address in addressList">
+            <h1>{{address.city}}</h1>
+            <p> {{address.area}}</p>
+            <p> {{address.address1}}</p>
+            <p> {{address.address2}}</p>
+            <p> {{address.zipcode}}</p>
+            <button ng-click="print()">Print</button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <form id="login" ng-controller="loginController">
+        <p class="title">Log in</p>
+        <input type="text" placeholder="Merchant Code" ng-model="username" autofocus/>
+        <i class="fa fa-user"></i>
+        <input type="password" placeholder="Password" ng-model="password"/>
+        <i class="fa fa-key"></i>
+        <a href="#">Forgot your password?</a>
+        <button ng-click="onLogin($event)">
+            <i class="spinner"></i>
+            <span class="state">Log in</span>
+        </button>
+    </form>
+</div>

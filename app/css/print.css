@@ -1,0 +1,41 @@
+#non-printable .success {
+    display: none;
+    color : green;
+}
+#non-printable .show{
+    display: block;
+}
+
+#non-printable button{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    background: #2196F3;
+    color: #fff;
+    display: block;
+    float: right;
+}
+#bill-header{
+    font-size : 20px;
+    padding-bottom: 40px;
+    text-align: left;
+    border-bottom: 2px solid #000000;
+
+}
+.bottom-dashed-border {
+    border-bottom: 2px dashed #000000;
+    padding: 10px 5px;
+}
+
+.right-aligned-text {
+    text-align: right;
+}
+tr td {
+    padding: 5px 10px;
+}
+
+@media print
+{
+    #non-printable { display: none; }
+    #printable { display: block; }
+}

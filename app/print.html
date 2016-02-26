@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/print.css"/>
+</head>
+<body ng-app="printer"  ng-controller="printController">
+
+    <div id = "printable">
+        <table>
+            <tr>
+                <th id="bill-header" colspan="4">Dhaba</th>
+            </tr>
+            <tr>
+                <td>Bill No</td>
+                <td>ABCL-98</td>
+                <td>19th feb </td>
+
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>Dine In</td>
+                <td>5:40 PM </td>
+
+            </tr>
+            <tr>
+                <td class="bottom-dashed-border">Table No</td>
+                <td class="bottom-dashed-border" colspan="3">10</td>
+            </tr>
+            <tr>
+                <th class="bottom-dashed-border">Item</td>
+                <th class="bottom-dashed-border">Qty</td>
+                <th class="bottom-dashed-border">Rate</td>
+                <th class="bottom-dashed-border">AMt</td>
+            </tr>
+            <tr>
+                <td>Pasta</td>
+                <td>1</td>
+                <td>100</td>
+                <td>100.00 </td>
+
+            </tr>
+            <tr>
+                <td>Pasta2</td>
+                <td>1</td>
+                <td>100</td>
+                <td>100.00 </td>
+            </tr>
+            <tr>
+                <td>French fries</td>
+                <td>1</td>
+                <td>100</td>
+                <td>100.00 </td>
+            </tr>
+            <tr>
+                <td class="bottom-dashed-border">Aaloo tikki</td>
+                <td class="bottom-dashed-border">1</td>
+                <td class="bottom-dashed-border">100</td>
+                <td class="bottom-dashed-border">100.00 </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="right-aligned-text">Subtotal</td>
+                <td>400.00</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="right-aligned-text">Discount</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="right-aligned-text">Grand Total</td>
+                <td>300.00</td>
+            </tr>
+            <tr>
+                <td class="bottom-dashed-border right-aligned-text" colspan="3">Round Off</td>
+                <td class="bottom-dashed-border" >-</td>
+            </tr>
+            <tr>
+                <td class="bottom-dashed-border right-aligned-text" colspan="3">Net To Pay</td>
+                <td class="bottom-dashed-border">300.00</td>
+            </tr>
+        </table>
+    </div>
+    <div id="non-printable">
+        <p class="success"> Bill printed successfully</p>
+    </div>
+
+</body>
+</html>

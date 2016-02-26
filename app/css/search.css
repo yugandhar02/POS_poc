@@ -1,0 +1,76 @@
+#search {
+    width: 450px;
+    padding: 8px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+#search input[type = "text"]{
+    width: 330px;
+    height: 42px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 16px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+}
+
+#search input[type = "text"]:focus {
+    outline: 0;
+    border-color: #aaa;
+    box-shadow: 0 1px 1px #bbb inset;
+}
+
+#search input[type = "text"]::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+#search input[type = "text"]:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+#search input[type = "text"]:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+#search input[type = "submit"] {
+    float: right;
+    border: 1px solid #00748f;
+    height: 42px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #fafafa;
+    text-transform: uppercase;
+    background-color: #0483a0;
+    background-image: linear-gradient(top, #31b2c3, #0483a0);
+}
+
+#search input[type = "submit"]:hover,
+#search input[type = "submit"]:focus {
+    background-color: #31b2c3;
+    background-image: linear-gradient(top, #0483a0, #31b2c3);
+}
+
+#search input[type = "submit"]::-moz-focus-inner {
+    border: 0;
+}
+
+#search-results {
+    width : 600px;
+    margin : 30px auto;
+    padding: 20px 30px;
+    border : 1px solid #dedede;
+}
+
+#search-results .address {
+    padding: 5px;
+}

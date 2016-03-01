@@ -1,7 +1,7 @@
 {
   "productName" : "POS",
   "name": "POS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Handles online,local orders, printing of bills and KOTs",
   "author": "yugandhar kamdi",
   "main": "./main.js",
